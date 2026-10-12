@@ -78,13 +78,13 @@ time {
 
     display: flex;
 flex-direction: column;
-max-width: 200px;
+max-width: 100px;
 margin-right: auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
     list-style-type: none;
     font-size: xx-small;
     font-style: italic;
-    text-align: right;
+    text-align: left;
 
 }
 
@@ -95,4 +95,15 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 800px;
     margin-right: auto;
     
+}
+
+p {
+
+    font-style: normal;
+}
+
+.regular-paragraphs {
+
+    width: 800px;
+
 }
