@@ -1,0 +1,98 @@
+
+
+body {
+max-width: 800px;
+margin: 0 auto;
+}
+.sender-column {
+text-align: right;
+}
+h1 {
+font-size: 1.5em;
+font-style: normal;
+}
+h2 {
+font-size: 1.3em;
+}
+p,ul,ol,dl,address {
+font-size: 1.1em;
+}
+p, li, dd, dt, address {
+line-height: 1.5;
+}
+
+.sender-column {
+ 
+display: flex;
+width: 100%;
+box-sizing: border-box;
+padding: 20px;
+
+}
+
+.right-aligned-box {
+
+display: flex;
+flex-direction: column;
+max-width: 200px;
+margin-left: auto;
+
+
+}
+
+.right-aligned-box img {
+width: 100px;
+margin-left: auto;
+
+}
+
+
+
+ul {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    font-size: xx-small;
+    font-style: italic;
+    text-align: right;
+
+}
+
+.date {
+    
+display: flex;
+flex-direction: column; 
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: xx-small;
+margin-left: auto; 
+text-align: right;
+}
+
+time {
+
+    font-style: normal;
+
+}
+
+.letter-header {
+
+    display: flex;
+flex-direction: column;
+max-width: 200px;
+margin-right: auto;
+font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    font-size: xx-small;
+    font-style: italic;
+    text-align: right;
+
+}
+
+.subject-line {
+
+    display: inline;
+    text-align: left;
+    width: 800px;
+    margin-right: auto;
+    
+}
