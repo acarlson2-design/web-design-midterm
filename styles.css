@@ -101,6 +101,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 p {
 
     font-style: normal;
+    width: 500px;
 }
 
 .regular-paragraphs {
@@ -139,3 +140,4 @@ dt {
 dd {
     font-style: normal;
 }
+
